@@ -2,7 +2,7 @@
 
 file="myfile.txt"
 if [ -e "$file" ]; then
-	echo "file already exists"
+	echo "file exists"
 else
-	echo "file doesnt exists"
+	echo "File not found"
 fi
